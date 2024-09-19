@@ -1,0 +1,13 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "cmd": "~/go/bin/golines -m 150 -w '${file}'",
+                "match": "\\.go$"
+            }
+        ]
+    },
+    "gopls": {
+        "formatting.gofumpt": true // combine with golines
+    }
+}
